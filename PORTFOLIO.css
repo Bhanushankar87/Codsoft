@@ -1,0 +1,73 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    color: black;
+}
+
+header {
+    background: blue;
+    color: black;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav {
+    background: blue;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+#skills{
+    ul li{
+    list-style-type: "📚 ";
+}
+}
+#contact{
+    ul li{
+        list-style-type: "📨 ";
+    }
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 15px;
+    background: #fff;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+h1, h2 {
+    color: #333;
+}
+h1{
+    font-size: 25px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: blue;
+    color: #fff;
+    margin-top: 10px;
+}
